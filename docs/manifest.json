@@ -1,0 +1,33 @@
+{
+  "id": "community.nuvio.gay.catalog",
+  "version": "1.0.0",
+  "name": "Open Men’s Video Catalog",
+  "description": "A catalog of links to lawful, publicly available adult (18+) video previews and creator pages. No paid or private content.",
+  "resources": [
+    "catalog",
+    "meta",
+    "stream"
+  ],
+  "types": [
+    "movie",
+    "series"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "gay-public",
+      "name": "Gay Men • Public Videos"
+    },
+    {
+      "type": "series",
+      "id": "creators",
+      "name": "Creators"
+    }
+  ],
+  "idPrefixes": [
+    "nuvio-gay-"
+  ],
+  "behaviorHints": {
+    "configurable": false
+  }
+}
